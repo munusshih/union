@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#p5sketch{
+    position:fixed;
+    z-index: 0;
+}
+
+#titleBox{
+    position:fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 4;
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+    color: #69140E;
+    font-size: 3vw;
+}
+
+h2{
+    font-family: 'EB Garamond', serif;
+    color: #69140E;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+
+#content{
+    position:absolute;
+    background:white;
+    border: 1px solid #69140E;
+    padding: 30px; 
+    width: 250px;
+    top: 88%;
+    right: 50px;
+    margin-bottom: 50px;
+    z-index: 4;
+
+    font-family: 'EB Garamond', serif;
+    color: #3C1518;
+    font-style: regular;
+    font-size: 1vw;
+    line-height: 1.6;
+}
+
+span{
+    font-style: italic;
+    color: #A44200;
+}
+
+#holder{
+    position:absolute;
+    background:white;
+    border: 1px solid #69140E;
+    padding: 30px; 
+    top: 330%;
+    right: 50px;
+    width: 250px;
+    margin-bottom: 50px;
+    z-index: 5;
+
+    font-family: 'EB Garamond', serif;
+    color: #69140E;
+    font-style: italic;
+    font-size: 1vw;
+}
